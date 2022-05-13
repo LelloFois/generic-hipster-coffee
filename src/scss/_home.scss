@@ -1,3 +1,26 @@
-* {
-    color: red;
+.main-container {
+
+    &__h1 {
+        color: $tertiary-gray;
+        text-transform: uppercase;
+        font-family: $font;
+        font-size: 2rem;
+
+    }
+
+    &__h2 {
+        color: $tertiary-gray;
+        font-family: $font;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .main-info {
+
+        &__img {
+            width: 300px;
+        }
+    }
+
 }
