@@ -5,3 +5,16 @@
 @import 'footer';
 @import 'header';
 @import 'our-story';
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
