@@ -14,11 +14,14 @@ html {
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    padding-left: 2em;
 }
+
+
 
 .menu {
     width: 100%;
-    padding: 2em;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -48,24 +51,19 @@ body {
 }
 
 h3 {
-    // border: 3px solid red;
+    
     
     font-size: 4em;
     font-weight: 100;
 }
 
-.menu__beer,
-.menu__spirits,
-.menu__white-wine,
-.menu__red-wine,
-.menu__cocktails {
-    padding-left: 0;
-}
+
 
 img {
     width: 72%;
     padding-left: 2em;
 }
+
 
  
 
