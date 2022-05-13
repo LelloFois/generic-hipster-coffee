@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+    h2 {
+        font-size: 5em;
+        font-weight: 100;
+    }
+
+    h3 {
+        // border: 3px solid red;
+        font-size: 4em;
+        font-weight: 100;
+    }
+
+    h4 {
+        
+       
+        width: 400px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+
+    } 
+}
+
+h3 {
+    // border: 3px solid red;
+    
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.menu__beer,
+.menu__spirits,
+.menu__white-wine,
+.menu__red-wine,
+.menu__cocktails {
+    padding-left: 0;
+}
+
+img {
+    width: 72%;
+    padding-left: 2em;
+}
+
+ 
+
+
