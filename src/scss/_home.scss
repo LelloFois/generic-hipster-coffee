@@ -18,9 +18,46 @@
 
     .main-info {
 
+        display: flex;
+        flex-direction: column;
+        width: $content-width;
+        margin: auto;
+
         &__img {
-            width: 300px;
+            width: 100%;
+        }
+
+        .main-info-cards {
+            display: flex;
+            max-width: 33%;
+
+            .main-info-card {
+
+                min-width: 95%;
+                padding: .5rem;
+
+                &__h3 {
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                    font-weight: 300;
+                }
+
+
+            }
+
+
+        }
+
+        .main-info-map {
+            min-width: 95%;
+            background-color: #d2d3d4;
+            height: 300px;
+
         }
     }
+
+
+
+
 
 }
