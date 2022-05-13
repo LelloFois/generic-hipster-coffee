@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    height: 10rem;
+    background-color: #f8f9fa;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+    align-items: center;
+
+    &__img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .header__ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+
+        &__link {
+            text-decoration: none;
+            padding: 2rem;
+
+
+            a {
+                text-decoration: none;
+                color: #ced4da;
+
+                &:hover {
+                    color: black;
+                }
+            }
+
+
+
+        }
+
+
+    }
+}
