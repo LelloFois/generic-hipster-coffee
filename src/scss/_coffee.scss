@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: $font;
+}
+
+.main__coffee {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.main__p {
+    display: none;
+}
+
+.h2-box {
+    width: 80%;
+    height: 15%;
+    background: $primary-gray;
+    border-bottom: 3px solid $secondary-gray;
+}
+
+img {
+    width: 80%;
+}
+
+.p-box {
+    height: 5rem;
+    width: 80%;
+    background-color: $primary-gray;
+}
