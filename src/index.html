@@ -16,7 +16,7 @@
 	<header class="header">
 		<img class="header__img" src="img/logo.svg" alt="Logo" />
 		<ul class="header__ul">
-			<li class="header__ul__link"><a href="index.html">Home</a></li>
+			<li class="header__ul__link"><a class="current" href="index.html">Home</a></li>
 			<li class="header__ul__link"><a href="menu.html">Menu</a></li>
 			<li class="header__ul__link"><a href="coffee.html">Coffee</a></li>
 			<li class="header__ul__link"><a href="our-story.html">Our Story</a></li>
@@ -45,7 +45,16 @@
 					<p class="main-info-card__p">321 Ivy <span> St.San Francisco, CA 94102</span></p>
 				</div>
 			</div>
-			<div class="main-info-map"></div>
+			<div class="mapouter">
+				<div class="gmap_canvas">
+					<iframe id="gmap_canvas"
+						src="https://maps.google.com/maps?q=San%20Francisco,%20CA%2094102%20321&t=&z=13&ie=UTF8&iwloc=&output=embed"
+						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+					<!-- <a
+						href="https://fmovies-online.net">fmovies</a><br>
+					<a href="https://www.embedgooglemap.net">google maps on webpage</a> -->
+				</div>
+			</div>
 		</div>
 	</main>
 
